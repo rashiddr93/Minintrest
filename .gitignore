@@ -17,3 +17,10 @@
 /yarn-error.log
 
 .byebug_history
+
+db/shcema.rb
+log*
+tmp*
+test*
+Gemfile.lock
+config/database.yml
