@@ -1,0 +1,29 @@
+body{
+  margin: 0 auto;
+}
+header{
+  padding: 0px 10px 20px 10px;
+}
+.logo{
+  height: 60px;
+  width: 200px;
+}
+.divider-top{
+  border-bottom: 2px solid darkgrey;
+}
+.icon{
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+  color: darkgrey;
+}
+.icons{
+  text-align: right;
+  width: 100px
+  list-style: none;
+  cursor: default;
+}
+.icons li{
+  display: inline;
+  padding: 10px;
+}

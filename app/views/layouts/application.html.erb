@@ -9,6 +9,22 @@
   </head>
 
   <body>
+    <header>
+      <div class="row">
+        <div class="col-md-3 logo-container">
+          <%= image_tag 'logo.png', class: 'logo' %>
+        </div>
+        <div class="col-md-8">
+          <ul class="icons">
+            <li><a href="#" class="icon fa fa-twitter"><span class="label"></span></a></li>
+            <li><a href="#" class="icon fa fa-facebook"><span class="label"></span></a></li>
+            <li><a href="#" class="icon fa fa-linkedin"><span class="label"></span></a></li>
+            <li><a href="#" class="icon fa fa-rss"><span class="label"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class ="divider-top"></div>
+    </header>
     <%= yield %>
   </body>
 </html>
