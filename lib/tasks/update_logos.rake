@@ -1,7 +1,7 @@
 namespace :sources do
   desc "Fetch news sources from 'https://newsapi.org'"
   #
-  # update_logos
+  # Usage:  rake sources:update_logos
   #
   # @author rashid
   #

@@ -1,29 +1,74 @@
+html,
+body,
+.welcome-container,
+.main,
+.side-navigation,
+.reading-space{
+  height:100%;
+}
 body{
   margin: 0 auto;
 }
-header{
-  padding: 0px 10px 20px 10px;
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
 }
-.logo{
-  height: 60px;
+.welcome-container{
+  background-image: url('welcome.png');
+  color: white;
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 23px;
+}
+.minintrest-logo{
   width: 200px;
 }
-.divider-top{
-  border-bottom: 2px solid darkgrey;
+.logo{
+  text-align: center;
 }
-.icon{
+.welcome,
+.start-reading-container,
+.welcome-message{
+  text-align: center;
+}
+.welcome-content{
+  padding-top: 100px;
+}
+.start-reading{
+  padding: 15px 25px;
+  background-color: #63adcc;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+  border: 1px solid transparent;
   text-decoration: none;
-  border-bottom: none;
-  position: relative;
-  color: darkgrey;
+  font-family: 'Montserrat', sans-serif;
 }
-.icons{
-  text-align: right;
-  width: 100px
-  list-style: none;
-  cursor: default;
+.start-reading:hover{
+  background-color: transparent;
+  border-color: white;
 }
-.icons li{
-  display: inline;
-  padding: 10px;
+.main{
+  display: none;
+}
+.side-navigation{
+  background-color: rgba(48, 51, 60, 1);
+}
+.top-space{
+  min-height: 200px;
+}
+.reading-space{
+  overflow-y: scroll;
+}
+.news-image{
+  float: right;
+}
+.news-image img{
+  width: 400;
+}
+.news-heading h4{
+  text-align: center;
 }
